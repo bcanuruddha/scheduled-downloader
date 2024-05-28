@@ -1,0 +1,165 @@
+.root {
+    -fx-font-family: "Open Sans";
+    -fx-background-color: #282a36;
+}
+
+.align-center {
+    -fx-alignment: CENTER;
+}
+
+.table-view {
+    -fx-background-color: #282a36; /* Table background color */
+    -fx-border-color: #44475a; /* Outer border color for the table */
+    -fx-border-width: 1px; /* Outer border width for the table */
+    -fx-border-style: solid; /* Outer border style for the table */
+}
+
+.table-view .column-header {
+    -fx-font-size: 12px;
+    -fx-background-color: #282a36;
+    -fx-border-color: #44475a; /* Border color for column header */
+    -fx-border-width:  0.5px; /* Border width for column header (bottom border) */
+    -fx-border-style: solid; /* Border style for column header */
+}
+
+.label {
+    -fx-text-fill: #C0C0C0;
+    -fx-font-weight: normal;
+    -fx-padding: 5px 0;
+}
+
+.table-view .scroll-bar:horizontal {
+    -fx-opacity: 0;
+    -fx-pref-height: 0;
+}
+
+.table-view {
+    -fx-border-color: #44475a; /* Border color for cells */
+    -fx-border-width: 1px; /* Thinner border width for cells */
+    -fx-border-style: solid; /* Border style for cells */
+    -fx-background-color: #282a36; /* Cell background color */
+}
+
+.cell {
+    -fx-border-color: #44475a; /* Border color for cells */
+    -fx-border-width: 0.5px; /* Thinner border width for cells */
+    -fx-border-color: transparent; /* Bottom border color */
+    -fx-border-style: solid; /* Border style for cells */
+    -fx-background-color: transparent;
+    -fx-text-fill: #C0C0C0; /* Cell text color */
+}
+
+.text-field {
+    -fx-background-color: #44475a; /* Text field background */
+    -fx-text-fill:#C0C0C0; /* Text field text color */
+    -fx-prompt-text-fill: #6272a4; /* Prompt text color */
+    -fx-border-color: #44475a; /* Border color for text field */
+    -fx-border-width: 1px; /* Border width for text field */
+}
+
+.button {
+    -fx-background-color: #6272a4; /* Button background */
+    -fx-text-fill: #C0C0C0; /* Button text color */
+    -fx-border-color: #44475a; /* Border color for button */
+    -fx-border-width: 1px; /* Border width for button */
+}
+
+.dark-button {
+    -fx-background-color: #494c62;
+    -fx-text-fill: #C0C0C0;
+}
+
+.green-button {
+    -fx-background-color: #00A86B;
+    -fx-text-fill: #C0C0C0;
+}
+
+.blue-button {
+    -fx-background-color: #00A86B;
+    -fx-text-fill: #C0C0C0;
+}
+
+.button:hover {
+    -fx-background-color: #44475a; /* Button hover background */
+}
+
+.check-box .box{
+    -fx-background-color: #6272a4; /* Dark background color for checkbox */
+    -fx-text-fill: #C0C0C0;
+    -fx-border-color: #44475a;/* CheckBox text color */
+}
+
+.progress-bar .track{
+    -fx-background-color: #282a36; /* Current Line color */
+    -fx-background-insets: 0;
+    -fx-background-radius: 0px;
+    -fx-pref-width: 180px;
+}
+
+.progress-bar .bar {
+    -fx-background-color: #00A86B; /* Green color */
+    -fx-background-insets: 0;
+    -fx-background-radius: 0px;
+    -fx-pref-width: 180px;
+}
+
+#startScheduler {
+    -fx-background-color: #0056b3;
+    -fx-text-fill: #C0C0C0;
+}
+
+.button-ok:hover {
+    -fx-background-color: #C0C0C0;
+}
+
+.downloading-row {
+    -fx-background-color: #44475a;
+    -fx-border-color:  #0086b7; /* Bottom border color */
+    -fx-border-width: 1px; /* Bottom border width */
+    -fx-border-style: solid; /* Border style */
+    -fx-padding: 5px 0px;
+}
+
+.waiting-row {
+    -fx-background-color: #44475a;
+    -fx-border-color:  #282a36; /* Bottom border color */
+    -fx-border-width: 1px; /* Bottom border width */
+    -fx-border-style: solid; /* Border style */
+    -fx-padding: 5px 0px;
+}
+
+.completed-row {
+    -fx-background-color: #44475a;
+    -fx-border-color: #00A86B; /* Bottom border color */
+    -fx-border-width: 1px; /* Bottom border width */
+    -fx-border-style: solid; /* Border style */
+    -fx-padding: 5px 0px;
+}
+
+.paused-row {
+    -fx-background-color: #44475a;
+    -fx-border-color: #7a2000; /* Bottom border color */
+    -fx-border-width: 1px; /* Bottom border width */
+    -fx-border-style: solid; /* Border style */
+    -fx-padding: 5px 0px;
+
+}
+
+.interrupted-row {
+    -fx-background-color: #ff5555;
+    -fx-border-color:  #282a36; /* Bottom border color */
+    -fx-border-width: 1px; /* Bottom border width */
+    -fx-border-style: solid; /* Border style */
+    -fx-padding: 5px 0px;
+}
+
+.action-button {
+    -fx-background-color:  #494c62; /* Green background */
+    -fx-text-fill: #C0C0C0; /* White text */
+    -fx-padding: 5px 20px; /* Padding */
+    -fx-margin: 5px 0;
+}
+
+.action-button:hover {
+    -fx-border-color:  #282a36; /* Bottom border color */
+}
